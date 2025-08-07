@@ -1,0 +1,70 @@
+ body { 
+    
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #c02a2a;
+  }
+
+#mycanvas { 
+    display: block;
+    background-color: black;
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 40px;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow; }
+
+#info { position: absolute; 
+    top: 10px;
+    color: white; font-family: sans-serif; 
+    text-align: center; 
+    width:100%; }
+
+.copy-right{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #333333;
+    color: #ababab;
+    font-weight: 300;
+    margin-top: 15px;
+    }
+
+
+#heading{
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#para{
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+
+@media (max-width: 400px) {
+    #mycanvas {
+        width: 90%;
+        height: 60vh;
+        margin-top: 20px;
+    }
+    
+    #info {
+        font-size: 14px;
+    }
+    
+    #heading, #para {
+        font-size: 16px;
+    }
+    .copy-right {
+        font-size: 12px;
+    }
+}
