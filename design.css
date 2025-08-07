@@ -26,13 +26,19 @@
 .copy-right{
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     background: #333333;
     color: #ababab;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 30px;
     }
 
+.copy-right p{
+    margin: 0;
+    font-size: 14px;
+    color: #ababab;
+
+}
 
 #heading{
     color: #ffffff;
@@ -70,3 +76,4 @@
     }
 
 }
+
